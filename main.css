@@ -1,0 +1,23 @@
+.body {
+  font-family:  Arial;
+}
+.sign-up {
+  background-color:red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+.sign-up:hover {
+  background-color: grey;
+  color: white;
+}
+.login {
+  border: none;
+  cursor: pointer;
+
+}
+.login:hover {
+  background-color: grey;
+  color: white;
+}

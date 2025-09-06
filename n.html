@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech</title>
+</head>
+<style>
+.body {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 1026px;
+  height: 603px;
+  top: 178px;
+  left: 327px;
+}
+
+.form {
+width: 216px;
+height: 32.59px;
+top: 202.87px;
+left: 368px;
+}
+
+.button {
+background: rgba(97, 176, 220, 0.84);
+
+width: 812px;
+height: 49.75px;
+top: 636.04px;
+left: 418px;
+border-radius: 8px;
+border-width: 0.5px;
+cursor: pointer;
+}
+</style>
+
+<body class="body">
+  <p class="form">
+    Registration Form
+  </p>
+   <form action="/submit" method="post"></form>
+
+    <label for="name">First Name</label><br>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+   <input type="email" id="email" name="email" required><br><br>
+  
+    <form action="/submit" method="post">
+
+    <label for="name">Password</label><br>
+    <input type="pin" id="password" name="password" required>
+
+    <label for="gender">Gender</label>
+    <input type="text" id="gender" name="gender" required><br><br>
+
+    <label for="lastname">Last Name</label><br>
+    <input type="text" id="lastname" name="lastname" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="confirm password">Confirm Password</label><br>
+    <input type="pin" id="confirm password" name="confirm password" required><br><br>
+    
+    <button class="button">Register</button>
+</body>
+</html>
